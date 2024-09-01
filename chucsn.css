@@ -1,0 +1,64 @@
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+h3 {
+  color: #da2433;
+  font-family: "Pacifico", cursive;
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+}
+#click {
+  text-align: right;
+  color: rgb(233, 32, 216);
+}
+.heart {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.heart div {
+  margin: 0 auto;
+  position: absolute;
+  /* top: 25px; */
+  width: 70px;
+  height: 100px;
+  background: rgb(235, 3, 3);
+  border-radius: 50%;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.left {
+  left: 0;
+  transform: rotate(-45deg);
+}
+
+.right {
+  right: 0;
+  transform: rotate(45deg);
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  animation: beat 1s infinite ease-in-out;
+
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto; /* Thêm dòng này để căn giữa */
+}
+h4 {
+  color: rgb(8, 103, 245);
+}

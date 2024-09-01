@@ -1,0 +1,26 @@
+body {
+  /* background-color: ư; */
+  text-align: center;
+  background-color: antiquewhite;
+}
+h1 {
+  color: #0443ca;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  padding-top: 50px;
+}
+
+table {
+  margin: auto;
+  font-size: xx-large;
+  border-spacing: 50px;
+}
+
+#tieptuc {
+  color: #a9141e;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  border: 5px solid rgb(10, 10, 10);
+  border-radius: 50%;
+  background-color: aqua;
+}
